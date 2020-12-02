@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Box Model</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: pink;
+		}	
+		h1 {
+			margin-bottom: 50px;
+		}
+		#big_box{
+			padding: 10px;
+			border: 10px solid;
+			margin: 40px;
+			background-color: blue;
+		}
+		#container{
+			color: red;
+			background-color: green;
+			height: 250px;
+			width: 250px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<h1>Box Model</h1>
+	<div id="big_box">
+		<div id="container">This is to understand the box model and learn how it functions, about padding, margins and borders etc. </div>
+		<div id="content">This is to try to make boxes side by side. Hopefully i succeed this time but i dont think i will.</div>
+	</div>
+
+</body>
+</html>
